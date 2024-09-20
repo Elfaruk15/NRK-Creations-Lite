@@ -1,0 +1,139 @@
+/*body style for all*/
+body{
+    background-color: #FADADD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h2{
+    color: black;
+    background-color: #003366;
+    overflow: hidden;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: black;   
+}
+#p1{
+    text-align: left;
+    color: darkred;
+}
+
+/*navigation bar for all*/
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #003366;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar a:hover{
+    background-color: darkred;
+}
+.navbar li{
+    float: inline-end; 
+}
+
+/*index page style*/
+body.index{
+.container{
+    background-color: #003366;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.image-box img{
+    border: solid;
+    justify-content: center;
+    flex: 100%; 
+    width: 500;  
+    max-width: 100%;
+}
+.text-box{
+   flex: 100%;
+   text-align: justify;
+}
+.text-box{
+   flex: 100%;
+   text-align: justify;
+}
+.text-box h3{
+    margin: 10px;
+    text-align: center;
+}
+.text-box p{
+    line-height: 1.5;
+
+}
+@media (max-width:1000px){
+.container{
+    flex-direction: column;
+
+}
+.image-box, .text-box{
+flex: 0 0 auto;
+width: 100%;
+}
+}
+}
+
+/*products page style*/
+body.products{
+.image-container{
+    justify-content: center;
+    padding: 15px;
+    text-align: center;  
+}
+.image-container img{
+    width: 47%;
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+}
+/*wallpapers button*/
+button{
+    color: darkred;
+    background-color: #003366;
+    display: flex;
+    font-size: x-large;
+    border-radius: 10px;   
+}
+}
+/*contact page style*/
+body.contact{
+div{
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin: 40px;
+}
+.text-box{
+    padding-top: 0%;
+}
+.text-box p{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+}
